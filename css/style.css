@@ -6304,7 +6304,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important; }
+  padding-bottom: 1rem !important; }
 
 .pl-5,
 .px-5 {
@@ -7608,7 +7608,7 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #fce7f1;
     border: 2px solid #fce7f1;
-    color: #ee76ad; }
+    color: #6E502C; }
     .btn.btn-primary:hover {
       border: 2px solid #ee76ad;
       background: transparent;
@@ -8104,7 +8104,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 8em 0;
+  padding: 2em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -8115,7 +8115,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #ee76ad;
+  background: #BA9566;
   padding: 12em 0 8em 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8339,8 +8339,19 @@ textarea.form-control {
   opacity: 0; }
 
 .ftco-counter {
-  background: #29bae4;
-  padding: 10em 0; }
+
+  margin-bottom: 3em;
+
+  background: rgba(243,227,200,1);
+  background: -moz-linear-gradient(left, rgba(243,227,200,1) 0%, rgba(183,142,78,1) 0%, rgba(233,213,180,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,227,200,1)), color-stop(0%, rgba(183,142,78,1)), color-stop(100%, rgba(233,213,180,1)));
+  background: -webkit-linear-gradient(left, rgba(243,227,200,1) 0%, rgba(183,142,78,1) 0%, rgba(233,213,180,1) 100%);
+  background: -o-linear-gradient(left, rgba(243,227,200,1) 0%, rgba(183,142,78,1) 0%, rgba(233,213,180,1) 100%);
+  background: -ms-linear-gradient(left, rgba(243,227,200,1) 0%, rgba(183,142,78,1) 0%, rgba(233,213,180,1) 100%);
+  background: linear-gradient(to right, rgba(243,227,200,1) 0%, rgba(183,142,78,1) 0%, rgba(233,213,180,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e3c8', endColorstr='#e9d5b4', GradientType=1 );
+
+  padding: 3em 0; }
   .ftco-counter .text strong.number {
     font-weight: 400;
     font-size: 40px;

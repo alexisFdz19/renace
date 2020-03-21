@@ -1,0 +1,22 @@
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: #BA9566;
+    color: white;
+  }
+  
+  .back-to-top:hover{
+  
+    background-color: #BA9566;
+    color: white;
+  
+  }
+  
+  .back-to-top:active{
+  
+    background-color: #BA9566;
+    color: white;
+  
+  }
