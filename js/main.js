@@ -121,12 +121,14 @@
 
 			if (st > 150) {
 				if ( !navbar.hasClass('scrolled') ) {
-					navbar.addClass('scrolled');	
+					navbar.addClass('scrolled');
+					$("#divLogo").removeClass("divLogo");	
 				}
 			} 
 			if (st < 150) {
 				if ( navbar.hasClass('scrolled') ) {
 					navbar.removeClass('scrolled sleep');
+					$("#divLogo").addClass("divLogo");
 				}
 			} 
 			if ( st > 350 ) {
